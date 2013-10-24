@@ -7,26 +7,16 @@
 <style type="text/css">
 
 /*
-
+Based off of and thanks to:
 ServerUptime script Rg Enzon http://rgenzon.com
-
 CSS by John Sardine http://johnsardine.com/
 Table design by Orman Clark http://premiumpixels.com
 
-The table style doesnt contain images, it contains gradients for browsers who support them as well as round corners and drop shadows.
-
-It has been tested in all major browsers.
-
-This table style is based on Simple Little Table By Orman Clark,
-you can download a PSD version of this at his website, PremiumPixels.
-http://www.premiumpixels.com/simple-little-table-psd/
-
-PLEASE CONTINUE READING AS THIS CONTAINS IMPORTANT NOTES
+Reworked for installgentoo by bananafish
 
 */
 
 /*
-Im reseting this style for optimal view using Eric Meyer's CSS Reset - http://meyerweb.com/eric/tools/css/reset/
 ------------------------------------------------------------------ */
 body, html  { height: 100%; }
 html, body, div, span, applet, object, iframe,
@@ -225,6 +215,6 @@ foreach($xml->monitor as $monitor) {
 }
 echo "</table>";
 ?>
-<a href="https://github.com/rgenzon/serveruptime">source</a> | <a href="http://status.installgentoo.com">status blog</a> | <a href="http://uptimerobot.com">uptime robot</a></center>
+<a href="https://github.com/thebananafish/server_status2">source</a> | <a href="http://status.installgentoo.com">status blog</a> | <a href="http://uptimerobot.com">uptime robot</a></center>
 </body>
 </html>
